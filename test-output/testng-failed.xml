@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E2E testing Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="E2E testing Test(failed)">
+    <classes>
+      <class name="myproject.TestingE2EUIPage">
+        <methods>
+          <include name="loginbrowser"/>
+          <include name="closeBrowser"/>
+          <include name="handlingWindow"/>
+        </methods>
+      </class> <!-- myproject.TestingE2EUIPage -->
+    </classes>
+  </test> <!-- E2E testing Test(failed) -->
+</suite> <!-- Failed suite [E2E testing Suite] -->
